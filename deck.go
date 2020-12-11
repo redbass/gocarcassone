@@ -5,17 +5,6 @@ type deck struct {
 	rivers []card
 }
 
-// func (d deck) draw() string {
-// 	sDeck := ""
-
-// 	for _, c := range d {
-// 		sDeck += c.draw()
-// 		sDeck += "\n"
-// 	}
-
-// 	return sDeck
-// }
-
 func newDeck(cards [][]string, rivers [][]string) deck {
 	var deckCards []card
 	var deckRivers []card

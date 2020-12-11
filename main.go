@@ -9,5 +9,7 @@ func main() {
 	g := createGame(d)
 
 	g.initGame()
-	fmt.Println(g.draw())
+
+	res := g.draw()
+	fmt.Println(res)
 }
